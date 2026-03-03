@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 from pathlib import Path
-from pages import Trực_quan_dữ_liệu
-from pages import Ứng_dụng_mô_hình
+from pages.truc_quan_du_lieu import *
+from pages.ung_dung_mo_hinh import *
 st.set_page_config(page_title="KHÓA LUẬN TỐT NGHIỆP", layout="wide")
 
 # =========================================================
@@ -139,6 +139,7 @@ minh họa khả năng dự báo của mô hình.
 """)
 
 st.markdown("</div>", unsafe_allow_html=True)
+
 
 
 

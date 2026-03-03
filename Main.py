@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 from pathlib import Path
-import Trực quan dữ liệu 
-import Ứng dụng mô hình
+import Trực quan dữ liệu.py 
+import Ứng dụng mô hình.py
 st.set_page_config(page_title="KHÓA LUẬN TỐT NGHIỆP", layout="wide")
 
 # =========================================================
@@ -139,4 +139,5 @@ minh họa khả năng dự báo của mô hình.
 """)
 
 st.markdown("</div>", unsafe_allow_html=True)
+
 
